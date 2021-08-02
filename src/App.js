@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="jumbotron">
+          <h1 className="display-4">Hello world!!!!</h1>
+          <p className="lead">
+              this is a simple hero test, loremdsgadfsgdfgafgdfagag
+              agasdgdasgadsgdasgadsg
+              dasgadsgasdgasdgasdgasdgasdgasdgasdgasdgdasgs
+
+          </p>
+
+          <hr className="my-4"/>
+          <p>
+              dgadfgadfgasfdgadfgdfghdfghsdfhs
+              dfshsdfhdfshsdfhdfshsdfhsdfhsdfh
+              fhgsdfhsdfhsdfhfdh
+
+
+
+          </p>
+
+          <a className="btn btn-primary btn-lg" href="#" role="button">
+            Learn more!!!
+          </a>
+        
+
+
+
+
+
+      </div>
+
+      
+      
     </div>
   );
 }
