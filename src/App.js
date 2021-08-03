@@ -1,5 +1,7 @@
 
 import './App.css';
+import Boton from './componentes/boton';
+import Boton2 from './componentes/boton 2';
 
 function App() {
   return (
@@ -29,7 +31,12 @@ function App() {
           </a>
         
 
+            <Boton  texto="clikeame ahora!"/>
 
+            <br/>
+            <br/>
+
+            <Boton2  texto="clikeame ahorsssssa!" />
 
 
 
